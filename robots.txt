@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://foreignloan.zion4realtor.com/sitemap.xml
