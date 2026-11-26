@@ -6,4 +6,8 @@
 - 内容口径：外国买家项目常见首付 25%–40% 为行业一般区间表述，页内多处
   注明「因项目和个人情况而异、以贷款机构审核为准」，不写具体利率、
   不写批准承诺（符合矩阵数据规矩 #4：贷款带免责声明、不承诺利率）。
-- 未核实/未上线：Cloudflare Pages 项目与 CNAME 尚未建立（见日报 2026-11-24）。
+- 上线状态：2026-11-24 晚正式上线（Pages 项目 foreign-loan-site 在子站账号，
+  CNAME foreignloan→foreign-loan-site.pages.dev 已生效，实测 200）。
+- 2026-11-26：新增英文版 /en/（全英文测评 + 英文 FAQPage 结构化数据），
+  中英两页互加 hreflang（zh-CN / en / x-default），sitemap 扩为 2 URL 并带
+  xhtml:link 交替链接。目标英文搜索词 "foreign national mortgage Georgia"。
