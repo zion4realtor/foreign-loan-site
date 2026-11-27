@@ -11,3 +11,7 @@
 - 2026-11-26：新增英文版 /en/（全英文测评 + 英文 FAQPage 结构化数据），
   中英两页互加 hreflang（zh-CN / en / x-default），sitemap 扩为 2 URL 并带
   xhtml:link 交替链接。目标英文搜索词 "foreign national mortgage Georgia"。
+- 2026-11-27：11-26 的英文版提交（9af91ef2）24 小时后仍未部署到 Pages
+  （pages.dev 与正式域名均为旧版：sitemap 仍 1 URL、/en/ 回退中文首页）。
+  本次提交用于重新触发 Pages 自动部署；若仍不生效，需在子站账号控制台
+  查看 foreign-loan-site 部署记录/手动 Retry deployment。
